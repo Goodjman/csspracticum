@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Bona Nova Bold';
+    src: url('../fonts/BonaNova-Bold.eot');
+    src: url('../fonts/BonaNova-Bold.eot#iefix') format('embedded-opentype'),
+    url('../fonts/BonaNova-Bold.woff') format('woff'),
+    url('../fonts/BonaNova-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: 'Bona Nova Regular';
+    src: url('../fonts/BonaNova-Regular.eot');
+    src: url('../fonts/BonaNova-Regular.eot#iefix') format('embedded-opentype'),
+    url('../fonts/BonaNova-Regular.woff') format('woff'),
+    url('../fonts/BonaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style:normal;
+}
+
+@mixin bold{
+    font-family: 'Bona Nova Bold', sans-serif;
+}
+@mixin regular{
+    font-family: 'Bona Nova Regular', sans-serif;
+}
+
